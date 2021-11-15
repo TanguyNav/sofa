@@ -16,7 +16,7 @@ set(HEADER_FILES
     ${PLUGIN_CGAL_SRC_DIR}/Refine2DMesh.inl
     ${PLUGIN_CGAL_SRC_DIR}/PoissonSurfaceReconstruction.h
     ${PLUGIN_CGAL_SRC_DIR}/FrontSurfaceReconstruction.h
-    ${PLUGIN_CGAL_SRC_DIR}/UpsamplePointCloud.h
+    # ${PLUGIN_CGAL_SRC_DIR}/UpsamplePointCloud.h
     ${PLUGIN_CGAL_SRC_DIR}/BooleanOperations.h
     )
 set(SOURCE_FILES
@@ -28,7 +28,7 @@ set(SOURCE_FILES
     ${PLUGIN_CGAL_SRC_DIR}/Refine2DMesh.cpp
     ${PLUGIN_CGAL_SRC_DIR}/PoissonSurfaceReconstruction.cpp
     ${PLUGIN_CGAL_SRC_DIR}/FrontSurfaceReconstruction.cpp
-    ${PLUGIN_CGAL_SRC_DIR}/UpsamplePointCloud.cpp
+    # ${PLUGIN_CGAL_SRC_DIR}/UpsamplePointCloud.cpp
     ${PLUGIN_CGAL_SRC_DIR}/BooleanOperations.cpp
     )
 set(README_FILES CGALPlugin.txt)
